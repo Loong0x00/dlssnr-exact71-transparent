@@ -57,7 +57,8 @@ real Vulkan/D3D game resource lifecycles.
   release archive.
 - `tools/run_native_oracle.sh` — optional comparison against a DLL supplied by
   the user; the DLL is not included.
-- GitHub **Releases** — complete runnable research package.
+- GitHub **Releases** — complete runnable research package. Current package:
+  [`v0.1.0-research-preview`](https://github.com/Loong0x00/dlssnr-exact71-transparent/releases/tag/v0.1.0-research-preview).
 
 ## Quick verification
 

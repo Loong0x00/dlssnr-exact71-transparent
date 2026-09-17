@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.oracle-build/
+oracle-wineprefix/
+dist/
+*.rgba32f
+*.rgba16f
+*.safetensors
+*.tar
+*.tar.zst
+cuda-probe-inner.log
+cuda-probe-error.log

@@ -1,0 +1,26 @@
+{
+  "status": "PASS_SINGLE_INDEPENDENT_TRANSPARENT_PUBLIC_NR71_SM120_FIRST_FRAME_BITWISE",
+  "output_bytes": 4194304,
+  "run1_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+  "run2_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+  "expected_public_dll_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+  "run1_run2_byte_equal": true,
+  "run1_public_dll_byte_equal": true,
+  "differing_bytes": 0,
+  "forward_audit_events": [],
+  "forward_no_file_network_process_dlopen": true,
+  "numeric_target": "nvngx_dlssnr.dll e16bcf... original embedded SM120 CUBIN",
+  "scope": "first/reset frame; Color live, history/motion/control-mask gated null",
+  "geometry": {
+    "visible": [
+      512,
+      512
+    ],
+    "internal_high": [
+      512,
+      576
+    ],
+    "vit_N": 96
+  },
+  "public_acceptance": "../nr-native-equivalence-matrix-main-20260914/PUBLIC_FULL71_ACCEPTANCE.json"
+}

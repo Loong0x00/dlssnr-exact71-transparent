@@ -1,0 +1,10 @@
+{
+  "status": "PASS_PURE_PUBLIC_TWO_FRAME_SM120_DLL_BITWISE",
+  "frame0_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+  "frame1_sha256": "e451fcf93663340a587888fa244e6cb62bad3030a0e4b157ff42a9bc6ec2530f",
+  "history_rgba16f_rtz_sha256": "47c5e92a43d021e32860756d2395d908a484ab7d9ca425756168c91d5e3f41a4",
+  "fixture_byte_equal": true,
+  "forward_io_events": [],
+  "counter_after": 2,
+  "scope": "512x512 deterministic RGBA32F, reset then counter=1, zero RG32F motion, no mask"
+}

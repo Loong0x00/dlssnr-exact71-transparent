@@ -1,0 +1,1301 @@
+{
+  "status": "PASS_INDEPENDENT_TRANSPARENT_PUBLIC_SM120_PACKAGE_MANIFEST",
+  "entrypoint": "model_public_sm120.ExactNR71PublicSM120",
+  "file_count": 302,
+  "total_bytes": 591757959,
+  "aggregate_name_hash_sha256": "59a1fbc2b23dc0fd3b3b1b7a8e0ac5e297bc1d79aa732f3c95243f73dc9cbba7",
+  "symlinks": [],
+  "nonregular": [],
+  "forbidden_binary_or_ptx_files": [],
+  "forbidden_entry_imports": [],
+  "absolute_home_paths_in_entry_sources": 0,
+  "logical_tensor_count": 649,
+  "logical_weights_sha256": "399d900614665918b4f4d51cea0eebc4d8a3a3752c3ab19847e9206f50f2d043",
+  "checkpoint_sha256": "890a53f05473dd6fd0980d1ca8501cfd84c1f6d7330b9531ca0981b6a6778d0e",
+  "fixture_input_sha256": "78523ae1814f60c64b3f54819e67964385edecc49c22b290c4b0bac293ef6e09",
+  "fixture_output_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+  "fixture_frame1_output_sha256": "e451fcf93663340a587888fa244e6cb62bad3030a0e4b157ff42a9bc6ec2530f",
+  "fixture_frame1_history_sha256": "47c5e92a43d021e32860756d2395d908a484ab7d9ca425756168c91d5e3f41a4",
+  "two_frame_no_io_result": {
+    "status": "PASS_PURE_PUBLIC_TWO_FRAME_SM120_DLL_BITWISE",
+    "frame0_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+    "frame1_sha256": "e451fcf93663340a587888fa244e6cb62bad3030a0e4b157ff42a9bc6ec2530f",
+    "history_rgba16f_rtz_sha256": "47c5e92a43d021e32860756d2395d908a484ab7d9ca425756168c91d5e3f41a4",
+    "fixture_byte_equal": true,
+    "forward_io_events": [],
+    "counter_after": 2,
+    "scope": "512x512 deterministic RGBA32F, reset then counter=1, zero RG32F motion, no mask"
+  },
+  "isolated_two_frame_result": {
+    "status": "PASS_PURE_PUBLIC_TWO_FRAME_SM120_DLL_BITWISE",
+    "frame0_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+    "frame1_sha256": "e451fcf93663340a587888fa244e6cb62bad3030a0e4b157ff42a9bc6ec2530f",
+    "history_rgba16f_rtz_sha256": "47c5e92a43d021e32860756d2395d908a484ab7d9ca425756168c91d5e3f41a4",
+    "fixture_byte_equal": true,
+    "forward_io_events": [],
+    "counter_after": 2,
+    "scope": "512x512 deterministic RGBA32F, reset then counter=1, zero RG32F motion, no mask"
+  },
+  "repeat_no_io_result": {
+    "status": "PASS_SINGLE_INDEPENDENT_TRANSPARENT_PUBLIC_NR71_SM120_FIRST_FRAME_BITWISE",
+    "output_bytes": 4194304,
+    "run1_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+    "run2_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+    "expected_public_dll_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+    "run1_run2_byte_equal": true,
+    "run1_public_dll_byte_equal": true,
+    "differing_bytes": 0,
+    "forward_audit_events": [],
+    "forward_no_file_network_process_dlopen": true,
+    "numeric_target": "nvngx_dlssnr.dll e16bcf... original embedded SM120 CUBIN",
+    "scope": "first/reset frame; Color live, history/motion/control-mask gated null",
+    "geometry": {
+      "visible": [
+        512,
+        512
+      ],
+      "internal_high": [
+        512,
+        576
+      ],
+      "vit_N": 96
+    },
+    "public_acceptance": "../nr-native-equivalence-matrix-main-20260914/PUBLIC_FULL71_ACCEPTANCE.json"
+  },
+  "isolated_copy_result": {
+    "status": "PASS_SINGLE_INDEPENDENT_TRANSPARENT_PUBLIC_NR71_SM120_FIRST_FRAME_BITWISE",
+    "output_bytes": 4194304,
+    "run1_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+    "run2_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+    "expected_public_dll_sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e",
+    "run1_run2_byte_equal": true,
+    "run1_public_dll_byte_equal": true,
+    "differing_bytes": 0,
+    "forward_audit_events": [],
+    "forward_no_file_network_process_dlopen": true,
+    "numeric_target": "nvngx_dlssnr.dll e16bcf... original embedded SM120 CUBIN",
+    "scope": "first/reset frame; Color live, history/motion/control-mask gated null",
+    "geometry": {
+      "visible": [
+        512,
+        512
+      ],
+      "internal_high": [
+        512,
+        576
+      ],
+      "vit_N": 96
+    },
+    "public_acceptance": "../nr-native-equivalence-matrix-main-20260914/PUBLIC_FULL71_ACCEPTANCE.json"
+  },
+  "files": {
+    "ISOLATED_PUBLIC_PACKAGE_RESULT.json": {
+      "bytes": 962,
+      "sha256": "cbb984d884d8d5cb5cd48e9fcea5005db4caa141e287dba7b456701164f489d1"
+    },
+    "ISOLATED_PUBLIC_TWO_FRAME_RESULT.json": {
+      "bytes": 510,
+      "sha256": "af24e149b9f94ce5c8e8874d040f04dd89e22cf53767827a00db307bd5067732"
+    },
+    "ISOLATED_PUBLIC_TWO_FRAME_RESULT.log": {
+      "bytes": 510,
+      "sha256": "af24e149b9f94ce5c8e8874d040f04dd89e22cf53767827a00db307bd5067732"
+    },
+    "PUBLIC_PACKAGE_RESULT.json": {
+      "bytes": 962,
+      "sha256": "cbb984d884d8d5cb5cd48e9fcea5005db4caa141e287dba7b456701164f489d1"
+    },
+    "PUBLIC_PACKAGE_RESULT_PRE_FINAL_PATH_AND_API_EDITS.json": {
+      "bytes": 962,
+      "sha256": "cbb984d884d8d5cb5cd48e9fcea5005db4caa141e287dba7b456701164f489d1"
+    },
+    "PUBLIC_TWO_FRAME_ACCEPTANCE.json": {
+      "bytes": 510,
+      "sha256": "af24e149b9f94ce5c8e8874d040f04dd89e22cf53767827a00db307bd5067732"
+    },
+    "PUBLIC_TWO_FRAME_ACCEPTANCE.log": {
+      "bytes": 510,
+      "sha256": "af24e149b9f94ce5c8e8874d040f04dd89e22cf53767827a00db307bd5067732"
+    },
+    "PUBLIC_WHITE_RGBA_PRE0_RESULT.json": {
+      "bytes": 407,
+      "sha256": "97cc10f56dd9dd8ebbf99b1cf1b9a0feac76e4c9f8f93d7ecbbd2edefa7109ec"
+    },
+    "README_PUBLIC_SM120.md": {
+      "bytes": 3567,
+      "sha256": "5ccfc96f3708bb6d7028985d9cf85a74932415e1b260003b6a17ae65d0c70c0c"
+    },
+    "SINGLE_MODEL_FIFTH_RUN_INTERLEAVED_RECURSIVE_WALK_FAILURE.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "SINGLE_MODEL_FIRST_RUN.log": {
+      "bytes": 78,
+      "sha256": "72538b538df934c597a7801b96ca4df3512c24e4efcf0f85cef05d3aeaad21d9"
+    },
+    "SINGLE_MODEL_FIRST_RUN_PRE_GEOMETRY_OVERWRITE_FAILURE.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "SINGLE_MODEL_FOURTH_RUN_DECODER_GLOBAL_GEOMETRY_OVERWRITTEN_FAILURE.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "SINGLE_MODEL_SECOND_RUN_ENCODER_GEOMETRY_OVERWRITE_FAILURE.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "SINGLE_MODEL_THIRD_RUN_DECODER_GEOMETRY_OVERWRITE_FAILURE.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "VERIFY_ISOLATED.log": {
+      "bytes": 962,
+      "sha256": "cbb984d884d8d5cb5cd48e9fcea5005db4caa141e287dba7b456701164f489d1"
+    },
+    "VERIFY_PUBLIC_MODEL.log": {
+      "bytes": 962,
+      "sha256": "cbb984d884d8d5cb5cd48e9fcea5005db4caa141e287dba7b456701164f489d1"
+    },
+    "VERIFY_PUBLIC_MODEL_PRE_FINAL_PATH_AND_API_EDITS.log": {
+      "bytes": 962,
+      "sha256": "cbb984d884d8d5cb5cd48e9fcea5005db4caa141e287dba7b456701164f489d1"
+    },
+    "build_public_manifest.py": {
+      "bytes": 3701,
+      "sha256": "70d291e9566369d27f1dc23f385057ffa28b3b0886400c7bb4654161e0cb9e96"
+    },
+    "contracts.py": {
+      "bytes": 3262,
+      "sha256": "69711a66edef91af4bddeb0012ed8cf1d5b53a406b7499e8cc24b3fe0c139b94"
+    },
+    "fixtures/public-frame1-history.rgba16f": {
+      "bytes": 2097152,
+      "sha256": "47c5e92a43d021e32860756d2395d908a484ab7d9ca425756168c91d5e3f41a4"
+    },
+    "fixtures/public-frame1-output.rgba32f": {
+      "bytes": 4194304,
+      "sha256": "e451fcf93663340a587888fa244e6cb62bad3030a0e4b157ff42a9bc6ec2530f"
+    },
+    "fixtures/public-input.rgba32f": {
+      "bytes": 4194304,
+      "sha256": "78523ae1814f60c64b3f54819e67964385edecc49c22b290c4b0bac293ef6e09"
+    },
+    "fixtures/public-output.rgba32f": {
+      "bytes": 4194304,
+      "sha256": "571fa2100c1842deff8769510a78f90cbe84810d64bb3ea82eaba41cf1cd793e"
+    },
+    "model_public_sm120.py": {
+      "bytes": 4548,
+      "sha256": "03967539fc8c98ec7ae22a8e725bf2e8d5052b795599c3c69f24d3a9991fc932"
+    },
+    "native_approx/APPROX_PHASE12_INPUT.bin": {
+      "bytes": 761860,
+      "sha256": "f3b2bdc83763f8aa33fbd1f62934181f40c4f8bf88bd8aa146481b97fac0246b"
+    },
+    "native_approx/APPROX_PHASE12_OUTPUT.bin": {
+      "bytes": 253952,
+      "sha256": "da1197f1065371734f26564a42ce5e502469ef0dea46ad14bbbf09427d91b471"
+    },
+    "native_approx/APPROX_PHASE13_INPUT.bin": {
+      "bytes": 445312,
+      "sha256": "95442fa3b1490a2189ef3e08a6f239eb2fbf5a2b597377231cae345cdf4293ea"
+    },
+    "native_approx/APPROX_PHASE13_OUTPUT.bin": {
+      "bytes": 148436,
+      "sha256": "5aecad17df102d4d0e18227d69c00c9b2952d50c848f6f1171e5501cec6860e8"
+    },
+    "native_approx/APPROX_PHASE1_INPUT.bin": {
+      "bytes": 15495844,
+      "sha256": "631e458166fd2e48ca046275da2e3f8931939f4a5e7f47ac6134d6232e958e5c"
+    },
+    "native_approx/APPROX_PHASE1_OUTPUT.bin": {
+      "bytes": 5165280,
+      "sha256": "162f138cbce737848402fd4465d349d6e8997cee108423e464fa62919d5b782d"
+    },
+    "native_approx/APPROX_PHASE2_INPUT.bin": {
+      "bytes": 6194140,
+      "sha256": "dcf402da147ef43595c786357b7dc7c59e62fbd757684099e1fcd6ef265d7048"
+    },
+    "native_approx/APPROX_PHASE2_OUTPUT.bin": {
+      "bytes": 2064712,
+      "sha256": "a9b00faa6f472505b08fdfb0d45ef1c8afa6b8bf2e659f315bcc7e532bd5478c"
+    },
+    "native_approx/APPROX_PHASE3_INPUT.bin": {
+      "bytes": 30652,
+      "sha256": "aaaf9f8b7afef742478ab2ab636a6bb63b7511cc9c21355e9ca63271fa487801"
+    },
+    "native_approx/APPROX_PHASE3_OUTPUT.bin": {
+      "bytes": 10216,
+      "sha256": "2ef039d546e645a31a66a9830c8718e60fcff497b1c415a5f02329126ce651af"
+    },
+    "native_approx/APPROX_PHASE4_INPUT.bin": {
+      "bytes": 30628,
+      "sha256": "f1ce5c2eec43876ecec5e0b250f9da66ae8110ebfa24839f8621163742772b32"
+    },
+    "native_approx/APPROX_PHASE4_OUTPUT.bin": {
+      "bytes": 10208,
+      "sha256": "fa18df27c6a07af38a4cef80a139321a14b7cf22f31388e085fd618f47a04c6d"
+    },
+    "native_approx/APPROX_PHASE5_INPUT.bin": {
+      "bytes": 16,
+      "sha256": "f7a831ed274a8e23096fb6717a1560ea6155d99c94b1efab8888dd7d884b35f3"
+    },
+    "native_approx/APPROX_PHASE5_OUTPUT.bin": {
+      "bytes": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    "native_approx/APPROX_PHASE6_INPUT.bin": {
+      "bytes": 1962112,
+      "sha256": "36cf2ec49293ca1535c302c41e32fb52496eb86faea3c8094cb6d9be6d19d0d1"
+    },
+    "native_approx/APPROX_PHASE6_OUTPUT.bin": {
+      "bytes": 654036,
+      "sha256": "ae011c99da27666fb608ec381b3a870fc72f89a7b185f1aa7047b073b81948d8"
+    },
+    "native_approx/APPROX_PHASE7_INPUT.bin": {
+      "bytes": 784888,
+      "sha256": "ffe61265bf4e3cebebc7660fa38162692b75c9b8a3af9bd3573b12fef06a899a"
+    },
+    "native_approx/APPROX_PHASE7_OUTPUT.bin": {
+      "bytes": 261628,
+      "sha256": "60ea40c667b1b6062394fee3b55f359aceddf39ef248e5e8330273c1dfecc929"
+    },
+    "native_approx/APPROX_PHASE8_INPUT.bin": {
+      "bytes": 17394784,
+      "sha256": "bcc221313a67fce12bd71771f32bc0ae4e064f735df5e80731cc609d7392123e"
+    },
+    "native_approx/APPROX_PHASE8_OUTPUT.bin": {
+      "bytes": 5798260,
+      "sha256": "e9f5965b8cd2074924806b806318445d0130e3dc3b29cc873aec2c8c58f81ac3"
+    },
+    "native_approx/APPROX_PHASE9_INPUT.bin": {
+      "bytes": 6955336,
+      "sha256": "7256ab697c70e5bb8f094480e76d1b5c62e754ddd6aabd3a4e28e19fcc240c56"
+    },
+    "native_approx/APPROX_PHASE9_OUTPUT.bin": {
+      "bytes": 2318444,
+      "sha256": "b3b7c44adf599cdd683ebb09e2137e610e69e3f5b91d2121b37730e9b9a7af2b"
+    },
+    "nr-block70-live-tex-main-20260914/f32bits.py": {
+      "bytes": 8301,
+      "sha256": "0b8351d935b2c923f78e35fb0a8e443ecab4c2f1d3578c25e177f4c31b3428d7"
+    },
+    "nr-block70-live-tex-main-20260914/live_tex.py": {
+      "bytes": 25361,
+      "sha256": "e3f72819fcb6a6949bb228946feb2aedbf4b78e3ae42d7aa11cf047d001ba31d"
+    },
+    "nr-decoder-input-tensor-main-20260912/tensor_reference.py": {
+      "bytes": 2812,
+      "sha256": "052619b9151590fa3a19c1e60dab4a475e553b02385cf7f4e6d9cf5df011d9b2"
+    },
+    "nr-exact-decoder39-70-main-20260913/decoder.py": {
+      "bytes": 5359,
+      "sha256": "fa88d254011a435477bb1726a14d6a3072413e5f86908bcae05c5738f9e7deff"
+    },
+    "nr-exact-encoder0-22-h512-main-20260914/chain.py": {
+      "bytes": 5729,
+      "sha256": "9f0e0409a66cfca18d5c41c70682e7c54cd51594c7ce5ce3cce40f9ea3e044f8"
+    },
+    "nr-exact-encoder0-22-main-20260913/chain.py": {
+      "bytes": 4918,
+      "sha256": "522a172074f83ba8bce44d44688bfe096df5d3143a51856ebd6e67538dcbdf41"
+    },
+    "nr-exact-split23-30-h16-main-20260914/chain.py": {
+      "bytes": 2942,
+      "sha256": "b75a07122671918e8be2f844f91b1f00d76090ff96a5c08ee1f88ac9420b5a33"
+    },
+    "nr-exact-split23-30-main-20260913/block30_candidate.py": {
+      "bytes": 1999,
+      "sha256": "baec3f058e2b1004670b4591563c21d64fa46bfc99cc2216e3d5fed0f179d511"
+    },
+    "nr-exact-split23-30-main-20260913/candidate.py": {
+      "bytes": 2956,
+      "sha256": "5a826f00307ca7ef8ae00e138d51e154d270735fb2b0a1655ae71082c71d8e14"
+    },
+    "nr-exact-split23-30-main-20260913/candidate_v3.py": {
+      "bytes": 9245,
+      "sha256": "3878aa7fa30eb800cd234d40b9b39dd4fad9ab64eaf6cd71669375da6e30fcf6"
+    },
+    "nr-exact-split23-30-main-20260913/split_standard_candidate.py": {
+      "bytes": 3100,
+      "sha256": "e77dddf27df34a8048452afb6dbe3c06ffbc5dad42550f417a8d10aee9d74fc6"
+    },
+    "nr-exact-split40-47-main-20260913/candidate.py": {
+      "bytes": 2956,
+      "sha256": "5a826f00307ca7ef8ae00e138d51e154d270735fb2b0a1655ae71082c71d8e14"
+    },
+    "nr-exact-split40-47-main-20260913/candidate_decoder_v3.py": {
+      "bytes": 9230,
+      "sha256": "410916a37b4c476b2830f0c57996c2e9577e81416201e60ed909e2e0b09904d2"
+    },
+    "nr-exact-split40-47-main-20260913/chain.py": {
+      "bytes": 856,
+      "sha256": "a0c53401805e73b670e631b14f9aaa1df72cbd82f1eea419d0bef39c7ccc496c"
+    },
+    "nr-exact-split40-47-main-20260913/split_decoder_candidate_v3.py": {
+      "bytes": 3108,
+      "sha256": "800b41524d0a626b04833bfdb621eeb38798f0b7b12e05c25de1a14a53657e41"
+    },
+    "nr-native-fp8-mma-20260911/runs/20260911-132533/reciprocal-f32.bin": {
+      "bytes": 262144,
+      "sha256": "1254eed4e932af3deb7894a185a159e4b95f863aa353afbabc603a3ba2abd53b"
+    },
+    "nr-native-normalization-20260911/runs/20260911-134003/rsqrt-f32.bin": {
+      "bytes": 262144,
+      "sha256": "a43128fa609f3f3a3e2538726fcf6feac5f950b9d5ef8eb523df3fbf43c96011"
+    },
+    "nr-outer-graph-main-20260912/RETYPED_FACTORY_GRAPH.json": {
+      "bytes": 69701,
+      "sha256": "d0ae68246c124514df45546b77817c6bba2a413e5e5580b2e38c5d688e9a5d7d"
+    },
+    "nr-post1h70-h512-main-20260913/attention.py": {
+      "bytes": 6079,
+      "sha256": "1ecade5d0b7ace2cccf27667305ec52d285e77b402b65f0623d9e156e09c7e63"
+    },
+    "nr-post1h70-h512-main-20260913/f16_math.py": {
+      "bytes": 1507,
+      "sha256": "12e0feda264173c999e7af90fc45137e436efc4d72e864616a74622c04b802f4"
+    },
+    "nr-post1h70-h512-main-20260913/f32_ops.py": {
+      "bytes": 2590,
+      "sha256": "e207b26799547140b773d62ab4f4e6cf5c3502eb8d31e883b930d31009e4cebc"
+    },
+    "nr-post1h70-h512-main-20260913/ffn.py": {
+      "bytes": 2918,
+      "sha256": "1112b6a522f7f69c8ea8cd73a75a0cd4423c522bd004753afed89fbedd0998d9"
+    },
+    "nr-post1h70-h512-main-20260913/head.py": {
+      "bytes": 1408,
+      "sha256": "39ac583d734862089ed8db5206f7b54dd82831139b7de8ae2943aa0a9b0ee8db"
+    },
+    "nr-post1h70-h512-main-20260913/nn.py": {
+      "bytes": 2338,
+      "sha256": "3e2d55c3fe08d6c71c3d81449c6634f457618871494e5adf7f58765329863e74"
+    },
+    "nr-post1h70-h512-main-20260913/normalized.py": {
+      "bytes": 3609,
+      "sha256": "f6838fee6ef3108eee378807268cde07479280a737bc9c26951c0992f062d983"
+    },
+    "nr-post1h70-h512-main-20260913/prefix.py": {
+      "bytes": 1956,
+      "sha256": "9c9f7b591518dccfc303d2e4fc61477d6f3e6bc02847627f4c6d9325ddbbfce8"
+    },
+    "nr-post1h70-h512-main-20260913/qkv.py": {
+      "bytes": 1524,
+      "sha256": "950595ef125005f5aa17c7b1d4010fb5ac4bba3c2e5e75c4eea9b99f1fcdfdd6"
+    },
+    "nr-pre0-temporal-main-20260914/attention.py": {
+      "bytes": 5763,
+      "sha256": "5c6b93bc6a59483031d39a4f60f33c0249e6766262bcf31132da69d5d1ec3396"
+    },
+    "nr-pre0-temporal-main-20260914/embedding.py": {
+      "bytes": 1121,
+      "sha256": "13197085bead46ccd0970d988fc91df20bd1ca5dc2688b1ce17eb2777bbe3c38"
+    },
+    "nr-pre0-temporal-main-20260914/f16_math.py": {
+      "bytes": 1507,
+      "sha256": "12e0feda264173c999e7af90fc45137e436efc4d72e864616a74622c04b802f4"
+    },
+    "nr-pre0-temporal-main-20260914/ffn.py": {
+      "bytes": 2560,
+      "sha256": "42c6ff9dfa1eae437fbd28593dd9f3c743dcba3014328a0f4a8c3bce186cda73"
+    },
+    "nr-pre0-temporal-main-20260914/layout_axes.py": {
+      "bytes": 875,
+      "sha256": "7dc7dbb0cbca29b76a7062165d236efcc0049d0cc13ed415e39593f132e16dc6"
+    },
+    "nr-pre0-temporal-main-20260914/normalized.py": {
+      "bytes": 3467,
+      "sha256": "66d22b6a55ba826bf12ad5e74a34fbdfe229d46920bf41ee79b9a11a6c3fc3fc"
+    },
+    "nr-pre0-temporal-main-20260914/numeric_primitives.py": {
+      "bytes": 3434,
+      "sha256": "39bcd08fbc72ace1734ff3cc0b2f8a32457e2789c0779251006341bdc98472d3"
+    },
+    "nr-pre0-temporal-main-20260914/pure_array_model.py": {
+      "bytes": 10449,
+      "sha256": "f1e8643603071f07995ea7854bbd0ab26f4c615933927b093754ea44b0364c2b"
+    },
+    "nr-pre0-temporal-main-20260914/qkv.py": {
+      "bytes": 1186,
+      "sha256": "749b111ef6974f744978d2f032cd00ed0aa3c17b87a40b0aa0adaca3c8db9b01"
+    },
+    "nr-pre0-temporal-main-20260914/reciprocal-f32.bin": {
+      "bytes": 262144,
+      "sha256": "1254eed4e932af3deb7894a185a159e4b95f863aa353afbabc603a3ba2abd53b"
+    },
+    "nr-pre0-temporal-main-20260914/rsqrt-f32.bin": {
+      "bytes": 262144,
+      "sha256": "a43128fa609f3f3a3e2538726fcf6feac5f950b9d5ef8eb523df3fbf43c96011"
+    },
+    "nr-pre0-temporal-main-20260914/temporal_preblock.py": {
+      "bytes": 31118,
+      "sha256": "095f40b2c5c455b4232173bd33c5690890c03bb6d6ab570c9a7c612309879c31"
+    },
+    "nr-pre1h0-main-20260912/approx_policies.py": {
+      "bytes": 1777,
+      "sha256": "92ff903d21e2b99bb1cc18cc5ad83c9807cac9f692b48bc30cc40ea1d5bd048d"
+    },
+    "nr-pre1h0-main-20260912/attention.py": {
+      "bytes": 6079,
+      "sha256": "45164848ce546d60710f515d63cbf6310ae842487f6649fd2743aa09a5bfcc93"
+    },
+    "nr-pre1h0-main-20260912/embedding.py": {
+      "bytes": 1121,
+      "sha256": "13197085bead46ccd0970d988fc91df20bd1ca5dc2688b1ce17eb2777bbe3c38"
+    },
+    "nr-pre1h0-main-20260912/f16_math.py": {
+      "bytes": 1507,
+      "sha256": "12e0feda264173c999e7af90fc45137e436efc4d72e864616a74622c04b802f4"
+    },
+    "nr-pre1h0-main-20260912/ffn.py": {
+      "bytes": 2905,
+      "sha256": "f46b91d3a739ce8d84d62836eb7b70ba4680f495243cd8ef7077c9b1d3a81023"
+    },
+    "nr-pre1h0-main-20260912/input_fixture.py": {
+      "bytes": 1100,
+      "sha256": "a7b36169a572112eb7d3f8cf0edc307d76658fa0c61fde5b7c7317414f304053"
+    },
+    "nr-pre1h0-main-20260912/model.py": {
+      "bytes": 4025,
+      "sha256": "2524dda736219743a8b51901f5105208f7f401138fc279f4558f707d6feb39be"
+    },
+    "nr-pre1h0-main-20260912/nn.py": {
+      "bytes": 3559,
+      "sha256": "0e3779ba04a666c2df29778f1bfc5196bb0312642c011b9761f48a862713b198"
+    },
+    "nr-pre1h0-main-20260912/normalized.py": {
+      "bytes": 3609,
+      "sha256": "6181b797ebd926f3410e3701952b09d2e2e8d4579c140ac4c024acc0db8b219e"
+    },
+    "nr-pre1h0-main-20260912/preprocess_candidate.py": {
+      "bytes": 15422,
+      "sha256": "2b8a0648237841c18559b034b4a2fd23ea2ce8fcad8fda68e026b7a895cbbe39"
+    },
+    "nr-pre1h0-main-20260912/qkv.py": {
+      "bytes": 1531,
+      "sha256": "63858f4a2daafbc02b8c926580cdbca97fb025981476d4025dd116f75850e4a2"
+    },
+    "nr-split16h-block23-dense-main-20260913/block23-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "3f9608c386a88f0b7917e259e46a83474e0ad4f6c346fe2e7b9eb7ba8a4dd922"
+    },
+    "nr-split16h-block24-dense-main-20260913/block24-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "ee58d33d2f4b71e0678550456ea562ca84cf3128a6718f1d8c8e0a02b9725e43"
+    },
+    "nr-split16h-block25-dense-main-20260913/block25-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "a77bfadf96c728147c67a8560f25875ecd55705e06ba7c72698d27d01044228a"
+    },
+    "nr-split16h-block26-dense-main-20260913/block26-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "4510012573af27dae20c6b3e3ff1d145aca728a1da6af5eb530adedc82f719ff"
+    },
+    "nr-split16h-block27-dense-main-20260913/block27-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "936500a5bb3b855ffc224c1f837420a92989a31842f3ab9e3a49502ec6b16e79"
+    },
+    "nr-split16h-block28-dense-main-20260913/block28-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "2aba86134430aad079b7f068ead26042a52619e25f61cfbfacf8f46006c1a354"
+    },
+    "nr-split16h-block29-dense-main-20260913/block29-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "c58d2054a9e261e4719e388630002c2afec634554a056f32c7baeff3c642380c"
+    },
+    "nr-split16h-block30-dense-main-20260913/block30-logical-full.npz": {
+      "bytes": 4854652,
+      "sha256": "7abc96e47910b425dd5e8197004faf9be02e9fb2c0ef33dc2ce1e4d9689c9b16"
+    },
+    "nr-split16h-block40-dense-main-20260913/block40-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "5aaf753768070447ac44af12d266e458bfc811d98bb12076ffb88577410b6c99"
+    },
+    "nr-split16h-block41-dense-main-20260913/block41-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "7b4c1e3329f367687f008e5f7b9ba854a5e15ccb65c4ee20aceb6cb9c4984a33"
+    },
+    "nr-split16h-block42-dense-main-20260913/block42-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "18adf3f6e371019cb0c45543c2d43762022b388b32b8aee479c5348a4b9413ed"
+    },
+    "nr-split16h-block43-dense-main-20260913/block43-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "8186c2650cff0a0ce184248d3ef7db88622d2d64078cc6b22f211c490ebcb4a2"
+    },
+    "nr-split16h-block44-dense-main-20260913/block44-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "55d18c096afbbce3c6cf9f8a8244c025510e4638d960ae872eb2d0272107da28"
+    },
+    "nr-split16h-block45-dense-main-20260913/block45-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "d5dbe2a64ccec12ce8b16d141746fe387c63a33f5bb3e22686b4e1a1c2d8fdfd"
+    },
+    "nr-split16h-block46-dense-main-20260913/block46-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "7bb628f0261b3a271b053c5be5b1beb27a24602d1adc170e9ffad0490e908624"
+    },
+    "nr-split16h-block47-dense-main-20260913/block47-logical.npz": {
+      "bytes": 3805822,
+      "sha256": "7bc46caa3400a327ee9d4f34f61a1a03197432f18fa34ead0f87bab6f4a2a81e"
+    },
+    "nr-swin1h-decoder67-68-h256-main-20260913/attention.py": {
+      "bytes": 6189,
+      "sha256": "2b3198c4fb9476969dcff77899c73c6ae4c71697c87622e18f25b2764dfdcb25"
+    },
+    "nr-swin1h-decoder67-68-h256-main-20260913/ffn.py": {
+      "bytes": 2917,
+      "sha256": "0bfd3d81028649a8e6e956fd6e8155a0391b12d0b320745f76686932dd37e982"
+    },
+    "nr-swin1h-decoder67-68-h256-main-20260913/nn.py": {
+      "bytes": 2229,
+      "sha256": "fba101f0cd3accb633096f3f9c8b031b3452909fad0d21b4d3541fee486f1b59"
+    },
+    "nr-swin1h-decoder67-68-h256-main-20260913/normalized.py": {
+      "bytes": 3609,
+      "sha256": "9c4aa9906eacd9eb23286f732b81a8a27924204be2de406dc507e5b970a6cf2c"
+    },
+    "nr-swin1h-decoder67-68-h256-main-20260913/qkv.py": {
+      "bytes": 1524,
+      "sha256": "17f4c652ee9e734f9e59035ec1e51eb8146d1ce9db472837fd3ceea2381b8000"
+    },
+    "nr-swin1h-ds4-main-20260912/attention.py": {
+      "bytes": 6189,
+      "sha256": "72e356c1f89ef97507638998007d587dd95cd9f48e4d4d412c70617b58203c3c"
+    },
+    "nr-swin1h-ds4-main-20260912/block4-slab.bin": {
+      "bytes": 22720,
+      "sha256": "f0d05533694577fa313f2655b00ada84f231f87ebc66ebbb7e8f0f7ea1ac88d2"
+    },
+    "nr-swin1h-ds4-main-20260912/core.py": {
+      "bytes": 2227,
+      "sha256": "9ab168645167a7b451932db19996367c299c5481dcc01b3963410b9d7d695ecd"
+    },
+    "nr-swin1h-ds4-main-20260912/down_policies.py": {
+      "bytes": 1258,
+      "sha256": "1217d8325332fe6736e2901a6a3f4678a6f39849d22cdd6951f4a561e44bfadc"
+    },
+    "nr-swin1h-ds4-main-20260912/downsample.py": {
+      "bytes": 13725,
+      "sha256": "20b5c559468a077e9875103838a4bee6701c4cc0b0db220793828b1ce0ae3573"
+    },
+    "nr-swin1h-ds4-main-20260912/ffn.py": {
+      "bytes": 2916,
+      "sha256": "2128196296ba618d9ec66bb6a379111dc2225374e24bee7bb7c90716f7ebb0a4"
+    },
+    "nr-swin1h-ds4-main-20260912/nn.py": {
+      "bytes": 1747,
+      "sha256": "86f05a90c7a06e27923a20f47cd1d7e299f37705faa00a1ee2bfb0f12fa97e13"
+    },
+    "nr-swin1h-ds4-main-20260912/normalized.py": {
+      "bytes": 3609,
+      "sha256": "998d7817a7a8439f54409c2dff6fa3d9c07526f0f16103b401303e69a981fd83"
+    },
+    "nr-swin1h-ds4-main-20260912/qkv.py": {
+      "bytes": 1523,
+      "sha256": "ca5a84e5f95db547df0aea95e86ffdb1473320766c99495c4daa0e386fdb3146"
+    },
+    "nr-swin1h-encoder23-main-20260912/attention.py": {
+      "bytes": 6189,
+      "sha256": "2b3198c4fb9476969dcff77899c73c6ae4c71697c87622e18f25b2764dfdcb25"
+    },
+    "nr-swin1h-encoder23-main-20260912/ffn.py": {
+      "bytes": 2917,
+      "sha256": "0bfd3d81028649a8e6e956fd6e8155a0391b12d0b320745f76686932dd37e982"
+    },
+    "nr-swin1h-encoder23-main-20260912/model.py": {
+      "bytes": 4819,
+      "sha256": "cf928d8b90a50ed8d3ca56f4ae4af41e8e30110e7e2401dff6801ec27d48b730"
+    },
+    "nr-swin1h-encoder23-main-20260912/nn.py": {
+      "bytes": 2227,
+      "sha256": "9ab168645167a7b451932db19996367c299c5481dcc01b3963410b9d7d695ecd"
+    },
+    "nr-swin1h-encoder23-main-20260912/normalized.py": {
+      "bytes": 3609,
+      "sha256": "9c4aa9906eacd9eb23286f732b81a8a27924204be2de406dc507e5b970a6cf2c"
+    },
+    "nr-swin1h-encoder23-main-20260912/qkv.py": {
+      "bytes": 1524,
+      "sha256": "17f4c652ee9e734f9e59035ec1e51eb8146d1ce9db472837fd3ceea2381b8000"
+    },
+    "nr-swin1h-inpview-main-20260912/attention.py": {
+      "bytes": 6189,
+      "sha256": "2b3198c4fb9476969dcff77899c73c6ae4c71697c87622e18f25b2764dfdcb25"
+    },
+    "nr-swin1h-inpview-main-20260912/ffn.py": {
+      "bytes": 2917,
+      "sha256": "0bfd3d81028649a8e6e956fd6e8155a0391b12d0b320745f76686932dd37e982"
+    },
+    "nr-swin1h-inpview-main-20260912/model.py": {
+      "bytes": 4606,
+      "sha256": "37bab2b65f1b08f7c427515e3c21d87dda139aaee35701384f77303a47ff9153"
+    },
+    "nr-swin1h-inpview-main-20260912/nn.py": {
+      "bytes": 1899,
+      "sha256": "41130c9ef73d6882030ba092b6bb8f118835238984a9ac3d35f875e79a8c2c1c"
+    },
+    "nr-swin1h-inpview-main-20260912/normalized.py": {
+      "bytes": 3609,
+      "sha256": "9c4aa9906eacd9eb23286f732b81a8a27924204be2de406dc507e5b970a6cf2c"
+    },
+    "nr-swin1h-inpview-main-20260912/qkv.py": {
+      "bytes": 1524,
+      "sha256": "17f4c652ee9e734f9e59035ec1e51eb8146d1ce9db472837fd3ceea2381b8000"
+    },
+    "nr-swin1h-inpview-main-20260912/standard_nn.py": {
+      "bytes": 2227,
+      "sha256": "9ab168645167a7b451932db19996367c299c5481dcc01b3963410b9d7d695ecd"
+    },
+    "nr-swin1h-outview69-h256-main-20260913/attention.py": {
+      "bytes": 6189,
+      "sha256": "2b3198c4fb9476969dcff77899c73c6ae4c71697c87622e18f25b2764dfdcb25"
+    },
+    "nr-swin1h-outview69-h256-main-20260913/ffn.py": {
+      "bytes": 2917,
+      "sha256": "0bfd3d81028649a8e6e956fd6e8155a0391b12d0b320745f76686932dd37e982"
+    },
+    "nr-swin1h-outview69-h256-main-20260913/nn.py": {
+      "bytes": 1863,
+      "sha256": "056d5b28bcb98cc02ee8b161b337c25da6355ed1c0d45b0ad523b99417814103"
+    },
+    "nr-swin1h-outview69-h256-main-20260913/normalized.py": {
+      "bytes": 3609,
+      "sha256": "9c4aa9906eacd9eb23286f732b81a8a27924204be2de406dc507e5b970a6cf2c"
+    },
+    "nr-swin1h-outview69-h256-main-20260913/qkv.py": {
+      "bytes": 1524,
+      "sha256": "17f4c652ee9e734f9e59035ec1e51eb8146d1ce9db472837fd3ceea2381b8000"
+    },
+    "nr-swin1h-outview69-h256-main-20260913/standard_nn.py": {
+      "bytes": 2229,
+      "sha256": "fba101f0cd3accb633096f3f9c8b031b3452909fad0d21b4d3541fee486f1b59"
+    },
+    "nr-swin1h-up66-h256-main-20260913/attention.py": {
+      "bytes": 6189,
+      "sha256": "354c2c1c5acfe414dace15cb25b5003d5d860024cc162603e1f6cd1be369054e"
+    },
+    "nr-swin1h-up66-h256-main-20260913/ffn.py": {
+      "bytes": 2919,
+      "sha256": "2457b76158c8dd696796ef2586b271bcc6fbe62c02e2e8deda8cf3c470866725"
+    },
+    "nr-swin1h-up66-h256-main-20260913/nn.py": {
+      "bytes": 2459,
+      "sha256": "dd5889575dfc1e7edd0a44d6991049e01e3f785f117493053e7a9824aa65d38f"
+    },
+    "nr-swin1h-up66-h256-main-20260913/normalized.py": {
+      "bytes": 3609,
+      "sha256": "7f23df4fce94acf40748783196deb648471b3d4c0bf8eedcde1d331b48dba123"
+    },
+    "nr-swin1h-up66-h256-main-20260913/prefix.py": {
+      "bytes": 2048,
+      "sha256": "f0c22255944a70da1a55c17367c3467e1a14609264300876cf882a410ef33313"
+    },
+    "nr-swin1h-up66-h256-main-20260913/qkv.py": {
+      "bytes": 1525,
+      "sha256": "725abc6b61b18bb171c0ed7c773442a94a11851c360acf02552cc3058ab33ad9"
+    },
+    "nr-swin2h-decoder63-64-h128-main-20260913/attention.py": {
+      "bytes": 6154,
+      "sha256": "f32ee30271af76c3f84a3355e16d0a9066f0b676f21c26a10698925ae23cadcc"
+    },
+    "nr-swin2h-decoder63-64-h128-main-20260913/ffn.py": {
+      "bytes": 3664,
+      "sha256": "bf12d0473fa30be857aa05aa54f8b0cc2e983b61a8b87c103101d2d15a559416"
+    },
+    "nr-swin2h-decoder63-64-h128-main-20260913/nn.py": {
+      "bytes": 2169,
+      "sha256": "86b4bb9f9d1dfbf1655f69c091b99da42ca42ab2271cff813b171d2330c29ac2"
+    },
+    "nr-swin2h-decoder63-64-h128-main-20260913/normalized.py": {
+      "bytes": 3609,
+      "sha256": "197eacdc1217ab977bb635052fa84e548eac072d8c7bf7513c6ad7a9ddd9af22"
+    },
+    "nr-swin2h-decoder63-64-h128-main-20260913/qkv.py": {
+      "bytes": 1528,
+      "sha256": "429894730df306f4325e7b79160dc396f0d2353cad71c284307b260e65e75372"
+    },
+    "nr-swin2h-ds8-main-20260913/attention.py": {
+      "bytes": 6154,
+      "sha256": "7a9aaf8a21ffbdf7ef375b985ad54edfd542119c0e16b35fb44e22be6d8c58b5"
+    },
+    "nr-swin2h-ds8-main-20260913/block8-slab.bin": {
+      "bytes": 69936,
+      "sha256": "687d906bc5d6748b57ee3e519c114f9382d93db560b7f779461c1ab90f5237ae"
+    },
+    "nr-swin2h-ds8-main-20260913/core.py": {
+      "bytes": 2167,
+      "sha256": "e2d06e39e1a1c08f1da3d4ba4fcd0defe17787cb942bac0d75451a7ec623c432"
+    },
+    "nr-swin2h-ds8-main-20260913/downsample.py": {
+      "bytes": 2062,
+      "sha256": "e0ccd45b22284d64e1f3f599f64b5b399304f063e6bb3dcb4a47c2f1867eeeae"
+    },
+    "nr-swin2h-ds8-main-20260913/ffn.py": {
+      "bytes": 3664,
+      "sha256": "1e463c62c40e2cc2fe54f996c04db06e5a91e3a54caf7f152674eb487973fc97"
+    },
+    "nr-swin2h-ds8-main-20260913/nn.py": {
+      "bytes": 1534,
+      "sha256": "e024b1915771f3161060ca5fa1fd0f6b3368f84e9ca347f8f5c23549a730a0fe"
+    },
+    "nr-swin2h-ds8-main-20260913/normalized.py": {
+      "bytes": 3609,
+      "sha256": "9c2154a0e3679f2acf7f3ae292cad7e91e0549f90a8c4d22a271306c2bb45dd9"
+    },
+    "nr-swin2h-ds8-main-20260913/qkv.py": {
+      "bytes": 1528,
+      "sha256": "68340fc709caaa53f330d35feaa8c44bbd9f705675926e8d35b8eaf7fba42c52"
+    },
+    "nr-swin2h-encoder67-main-20260913/attention.py": {
+      "bytes": 6154,
+      "sha256": "f32ee30271af76c3f84a3355e16d0a9066f0b676f21c26a10698925ae23cadcc"
+    },
+    "nr-swin2h-encoder67-main-20260913/block6-slab.bin": {
+      "bytes": 61760,
+      "sha256": "380e368298920277d3bf9bf715730f2b5fdffe763fd1a3ed67ab9c3b0be1d682"
+    },
+    "nr-swin2h-encoder67-main-20260913/block7-slab.bin": {
+      "bytes": 61760,
+      "sha256": "cd990fde2971a8550e3bf0010842bc02fa3a07f4497f5b5b71dd7d264a3e3384"
+    },
+    "nr-swin2h-encoder67-main-20260913/ffn.py": {
+      "bytes": 3664,
+      "sha256": "bf12d0473fa30be857aa05aa54f8b0cc2e983b61a8b87c103101d2d15a559416"
+    },
+    "nr-swin2h-encoder67-main-20260913/nn.py": {
+      "bytes": 2167,
+      "sha256": "e2d06e39e1a1c08f1da3d4ba4fcd0defe17787cb942bac0d75451a7ec623c432"
+    },
+    "nr-swin2h-encoder67-main-20260913/normalized.py": {
+      "bytes": 3609,
+      "sha256": "197eacdc1217ab977bb635052fa84e548eac072d8c7bf7513c6ad7a9ddd9af22"
+    },
+    "nr-swin2h-encoder67-main-20260913/qkv.py": {
+      "bytes": 1528,
+      "sha256": "429894730df306f4325e7b79160dc396f0d2353cad71c284307b260e65e75372"
+    },
+    "nr-swin2h-inpview5-main-20260913/attention.py": {
+      "bytes": 6154,
+      "sha256": "f32ee30271af76c3f84a3355e16d0a9066f0b676f21c26a10698925ae23cadcc"
+    },
+    "nr-swin2h-inpview5-main-20260913/block5-slab.bin": {
+      "bytes": 61760,
+      "sha256": "1b905577285978107b21b5730aac2b0105d45f757b5e78334291d9b4ab5646bb"
+    },
+    "nr-swin2h-inpview5-main-20260913/ffn.py": {
+      "bytes": 3664,
+      "sha256": "bf12d0473fa30be857aa05aa54f8b0cc2e983b61a8b87c103101d2d15a559416"
+    },
+    "nr-swin2h-inpview5-main-20260913/nn.py": {
+      "bytes": 2032,
+      "sha256": "58ba7025866d9fd17644f67f41fcae6c51f2f071a1461ba543c1dc1fc9c181cc"
+    },
+    "nr-swin2h-inpview5-main-20260913/normalized.py": {
+      "bytes": 3609,
+      "sha256": "197eacdc1217ab977bb635052fa84e548eac072d8c7bf7513c6ad7a9ddd9af22"
+    },
+    "nr-swin2h-inpview5-main-20260913/qkv.py": {
+      "bytes": 1528,
+      "sha256": "429894730df306f4325e7b79160dc396f0d2353cad71c284307b260e65e75372"
+    },
+    "nr-swin2h-inpview5-main-20260913/standard_nn.py": {
+      "bytes": 2167,
+      "sha256": "e2d06e39e1a1c08f1da3d4ba4fcd0defe17787cb942bac0d75451a7ec623c432"
+    },
+    "nr-swin2h-outview65-h128-main-20260913/attention.py": {
+      "bytes": 6154,
+      "sha256": "f32ee30271af76c3f84a3355e16d0a9066f0b676f21c26a10698925ae23cadcc"
+    },
+    "nr-swin2h-outview65-h128-main-20260913/ffn.py": {
+      "bytes": 3664,
+      "sha256": "bf12d0473fa30be857aa05aa54f8b0cc2e983b61a8b87c103101d2d15a559416"
+    },
+    "nr-swin2h-outview65-h128-main-20260913/nn.py": {
+      "bytes": 1863,
+      "sha256": "2d5feb3d60096669aceeb52f0f27a8dabf70ccc85641ecdd298f04ae7ece757f"
+    },
+    "nr-swin2h-outview65-h128-main-20260913/normalized.py": {
+      "bytes": 3609,
+      "sha256": "197eacdc1217ab977bb635052fa84e548eac072d8c7bf7513c6ad7a9ddd9af22"
+    },
+    "nr-swin2h-outview65-h128-main-20260913/qkv.py": {
+      "bytes": 1528,
+      "sha256": "429894730df306f4325e7b79160dc396f0d2353cad71c284307b260e65e75372"
+    },
+    "nr-swin2h-outview65-h128-main-20260913/standard_nn.py": {
+      "bytes": 2169,
+      "sha256": "86b4bb9f9d1dfbf1655f69c091b99da42ca42ab2271cff813b171d2330c29ac2"
+    },
+    "nr-swin2h-up62-h128-main-20260913/attention.py": {
+      "bytes": 6154,
+      "sha256": "193f056edbd3e5ff0b3f33dece5507273987653cdf49d38562605b8d1f999e8a"
+    },
+    "nr-swin2h-up62-h128-main-20260913/ffn.py": {
+      "bytes": 3664,
+      "sha256": "ecb1784dbad13ad685c94ba70b7d350806405de12b29a739a884b38de7234e96"
+    },
+    "nr-swin2h-up62-h128-main-20260913/nn.py": {
+      "bytes": 1379,
+      "sha256": "a83438da04d930625a09dd0a36b67d07c64730be626c8ff717c43764513d4054"
+    },
+    "nr-swin2h-up62-h128-main-20260913/normalized.py": {
+      "bytes": 3609,
+      "sha256": "f3a4cb6fa7c027e8083b34b576bde74ffa80df443e6d156c49e2cefde8758091"
+    },
+    "nr-swin2h-up62-h128-main-20260913/prefix.py": {
+      "bytes": 2052,
+      "sha256": "a452493fa8ba5aaa1a9dc4326c5e83ee66df0137e8c535b0611ff86ffd879eb8"
+    },
+    "nr-swin2h-up62-h128-main-20260913/qkv.py": {
+      "bytes": 1528,
+      "sha256": "6afb202f75436904b3e874663dcd51570999d5cb9cf23bbfb6dae01ee4fa0f4c"
+    },
+    "nr-swin4h-decoder57-60-h64-main-20260913/attention.py": {
+      "bytes": 6166,
+      "sha256": "9e0b9967fcfd70a7aaa5a6983c79fce809368e64f651b87f72e02252d54ccda4"
+    },
+    "nr-swin4h-decoder57-60-h64-main-20260913/ffn.py": {
+      "bytes": 3668,
+      "sha256": "50022a801d6718fd958356304ed2a582c32facf3ee9d687711d284ef0ceca799"
+    },
+    "nr-swin4h-decoder57-60-h64-main-20260913/nn.py": {
+      "bytes": 2171,
+      "sha256": "15cbc20038c77c136be3d66fc95762dd7115c9142eb9eebd971c879b013eb3d5"
+    },
+    "nr-swin4h-decoder57-60-h64-main-20260913/normalized.py": {
+      "bytes": 3611,
+      "sha256": "e4b0da687583cc1a9a0d8ebc2c3d03204a57944c5c88ba484788520cd15d91a6"
+    },
+    "nr-swin4h-decoder57-60-h64-main-20260913/qkv.py": {
+      "bytes": 1533,
+      "sha256": "d20d95939c9446e2888665b58b30672c39055bc0073ca5323f7146854aae3100"
+    },
+    "nr-swin4h-ds14-main-20260913/attention.py": {
+      "bytes": 6166,
+      "sha256": "28a89176d5036a1ee05cb93cb36f7532e7cca0ef2f73aecdbca05f25f709dbcb"
+    },
+    "nr-swin4h-ds14-main-20260913/block14-slab.bin": {
+      "bytes": 229936,
+      "sha256": "6c7a05c82b823e09b0b843f5dd399af7a006410f3587191f62a43205a872724d"
+    },
+    "nr-swin4h-ds14-main-20260913/core.py": {
+      "bytes": 2171,
+      "sha256": "9be19b763c91ed15e35ec979aacb9230bfc16dec409ba9fa5026fcbf0b5c0143"
+    },
+    "nr-swin4h-ds14-main-20260913/downsample.py": {
+      "bytes": 2131,
+      "sha256": "5679ec6084de5d7538c4d755f9c8f39fcbc4c16b3342ab39696b6c4991b9efba"
+    },
+    "nr-swin4h-ds14-main-20260913/ffn.py": {
+      "bytes": 3668,
+      "sha256": "c818bb0103e0ff07f42a9552f27634c6655fe317541315480d80239c23792b4a"
+    },
+    "nr-swin4h-ds14-main-20260913/nn.py": {
+      "bytes": 1509,
+      "sha256": "3fa11e7cbe5c5b791a1d43494c8376587e9773aba5bad02ab7461b6fbe450103"
+    },
+    "nr-swin4h-ds14-main-20260913/normalized.py": {
+      "bytes": 3611,
+      "sha256": "6a56b827e995a26091236b136ee632394e8d45f6a2e631f54ba1d053ceec75b5"
+    },
+    "nr-swin4h-ds14-main-20260913/qkv.py": {
+      "bytes": 1533,
+      "sha256": "11223d82cb72e597315b6958d90f2f8f2f5079291676c4019f32eac8e0da3057"
+    },
+    "nr-swin4h-encoder10-13-main-20260913/attention.py": {
+      "bytes": 6166,
+      "sha256": "9e0b9967fcfd70a7aaa5a6983c79fce809368e64f651b87f72e02252d54ccda4"
+    },
+    "nr-swin4h-encoder10-13-main-20260913/block10-slab.bin": {
+      "bytes": 197184,
+      "sha256": "77eacae2f2290c898c53b151b36bc7539bbc7b147628ef3f3b1ecc22b1f910d4"
+    },
+    "nr-swin4h-encoder10-13-main-20260913/block11-slab.bin": {
+      "bytes": 197184,
+      "sha256": "dd5440dccd5fa2be9b63421d2a67715b8c41abf783464601a78bf138f479a40f"
+    },
+    "nr-swin4h-encoder10-13-main-20260913/block12-slab.bin": {
+      "bytes": 197184,
+      "sha256": "6e74d269d3b545cbef475810dc6143d2ed4252d1b905893ed726dceb756f3962"
+    },
+    "nr-swin4h-encoder10-13-main-20260913/block13-slab.bin": {
+      "bytes": 197184,
+      "sha256": "535b8b432b76bd8fe857594a58b76985ec70775390fba55d14edfe2df6d5bdaa"
+    },
+    "nr-swin4h-encoder10-13-main-20260913/ffn.py": {
+      "bytes": 3668,
+      "sha256": "50022a801d6718fd958356304ed2a582c32facf3ee9d687711d284ef0ceca799"
+    },
+    "nr-swin4h-encoder10-13-main-20260913/nn.py": {
+      "bytes": 2171,
+      "sha256": "9be19b763c91ed15e35ec979aacb9230bfc16dec409ba9fa5026fcbf0b5c0143"
+    },
+    "nr-swin4h-encoder10-13-main-20260913/normalized.py": {
+      "bytes": 3611,
+      "sha256": "e4b0da687583cc1a9a0d8ebc2c3d03204a57944c5c88ba484788520cd15d91a6"
+    },
+    "nr-swin4h-encoder10-13-main-20260913/qkv.py": {
+      "bytes": 1533,
+      "sha256": "d20d95939c9446e2888665b58b30672c39055bc0073ca5323f7146854aae3100"
+    },
+    "nr-swin4h-inpview9-main-20260913/attention.py": {
+      "bytes": 6166,
+      "sha256": "9e0b9967fcfd70a7aaa5a6983c79fce809368e64f651b87f72e02252d54ccda4"
+    },
+    "nr-swin4h-inpview9-main-20260913/block9-slab.bin": {
+      "bytes": 197184,
+      "sha256": "934cebc771cfa1ed086f47f018426090e14ca4326dcb22843cbc17dff9851c32"
+    },
+    "nr-swin4h-inpview9-main-20260913/ffn.py": {
+      "bytes": 3668,
+      "sha256": "50022a801d6718fd958356304ed2a582c32facf3ee9d687711d284ef0ceca799"
+    },
+    "nr-swin4h-inpview9-main-20260913/nn.py": {
+      "bytes": 1881,
+      "sha256": "915440c6362a2186b7cb2f4e03474384e0b5565f9ed7d0a54afa9b882343e72d"
+    },
+    "nr-swin4h-inpview9-main-20260913/normalized.py": {
+      "bytes": 3611,
+      "sha256": "e4b0da687583cc1a9a0d8ebc2c3d03204a57944c5c88ba484788520cd15d91a6"
+    },
+    "nr-swin4h-inpview9-main-20260913/qkv.py": {
+      "bytes": 1533,
+      "sha256": "d20d95939c9446e2888665b58b30672c39055bc0073ca5323f7146854aae3100"
+    },
+    "nr-swin4h-inpview9-main-20260913/standard_nn.py": {
+      "bytes": 2171,
+      "sha256": "9be19b763c91ed15e35ec979aacb9230bfc16dec409ba9fa5026fcbf0b5c0143"
+    },
+    "nr-swin4h-outview61-h64-main-20260913/attention.py": {
+      "bytes": 6166,
+      "sha256": "9e0b9967fcfd70a7aaa5a6983c79fce809368e64f651b87f72e02252d54ccda4"
+    },
+    "nr-swin4h-outview61-h64-main-20260913/ffn.py": {
+      "bytes": 3668,
+      "sha256": "50022a801d6718fd958356304ed2a582c32facf3ee9d687711d284ef0ceca799"
+    },
+    "nr-swin4h-outview61-h64-main-20260913/nn.py": {
+      "bytes": 1865,
+      "sha256": "a28f3b12673f39c8c312627e7be80c070fbcd93a662afc6c7be0dc7adafd0189"
+    },
+    "nr-swin4h-outview61-h64-main-20260913/normalized.py": {
+      "bytes": 3611,
+      "sha256": "e4b0da687583cc1a9a0d8ebc2c3d03204a57944c5c88ba484788520cd15d91a6"
+    },
+    "nr-swin4h-outview61-h64-main-20260913/qkv.py": {
+      "bytes": 1533,
+      "sha256": "d20d95939c9446e2888665b58b30672c39055bc0073ca5323f7146854aae3100"
+    },
+    "nr-swin4h-outview61-h64-main-20260913/standard_nn.py": {
+      "bytes": 2171,
+      "sha256": "15cbc20038c77c136be3d66fc95762dd7115c9142eb9eebd971c879b013eb3d5"
+    },
+    "nr-swin4h-up56-h64-main-20260913/attention.py": {
+      "bytes": 6166,
+      "sha256": "97b0d98ca18761f8da4b804eaaa2af63f58975afafb336c3317a2b80edde0370"
+    },
+    "nr-swin4h-up56-h64-main-20260913/ffn.py": {
+      "bytes": 3669,
+      "sha256": "36b33aeb4eb81df58d0be2680d9d8e7294722f4baa43c00822f3211d6c8d4494"
+    },
+    "nr-swin4h-up56-h64-main-20260913/nn.py": {
+      "bytes": 1918,
+      "sha256": "33bb192b49f0e70284c7836d44b1f9ad41723698760fcade4f04efcc0a156570"
+    },
+    "nr-swin4h-up56-h64-main-20260913/normalized.py": {
+      "bytes": 3611,
+      "sha256": "3b3a6f1e303465c9426e03451d22fa99b2f8aa889191d7028ab204be4afab79a"
+    },
+    "nr-swin4h-up56-h64-main-20260913/prefix.py": {
+      "bytes": 2062,
+      "sha256": "293ec85f463a69a11a6df315268cf85efcaceadc9f4c77cc0573e9d1cf09f1b2"
+    },
+    "nr-swin4h-up56-h64-main-20260913/qkv.py": {
+      "bytes": 1534,
+      "sha256": "1b0f638595be42ab103cb519c2a4b2c49b1e014fcec1c25812c22e69c991d3f5"
+    },
+    "nr-swin8h-attention-tensor-main-20260912/attention.py": {
+      "bytes": 6170,
+      "sha256": "0a667665cda4a52a67f9c44eca874a5ed89474090a46a3c06797be8aa170b08f"
+    },
+    "nr-swin8h-block48-h32-main-20260913/tiled.py": {
+      "bytes": 1732,
+      "sha256": "396a7e38a47a3c7fb17c58ebdaa906e4d7e85bbf91101192ebda155b8158a2cf"
+    },
+    "nr-swin8h-block48-reference-main-20260912/block.py": {
+      "bytes": 4598,
+      "sha256": "42f7b8140c11f969f20410fc18138454380ff2d2ab480664ef1019e677833ad4"
+    },
+    "nr-swin8h-decoder49-54-h32-main-20260913/attention.py": {
+      "bytes": 6170,
+      "sha256": "6404e901ac1bcaa813c5e02dd8aec65452a81631ac41fea5ec8c051b4ac8165d"
+    },
+    "nr-swin8h-decoder49-54-h32-main-20260913/ffn.py": {
+      "bytes": 3675,
+      "sha256": "04d06a8ca462763b09fbd475a8172edda1f10de7b26cf05c5ef01b3f3a099ced"
+    },
+    "nr-swin8h-decoder49-54-h32-main-20260913/nn.py": {
+      "bytes": 2065,
+      "sha256": "4884dfc546f36dc1da3afa0c620777e31cd39f04ad22177afe121e0d2adfaf3f"
+    },
+    "nr-swin8h-decoder49-54-h32-main-20260913/normalized.py": {
+      "bytes": 3611,
+      "sha256": "0a94d713047a4f4d2f95631bd3ea4eb89ea41acfef52b799090c3ad814f3be3d"
+    },
+    "nr-swin8h-decoder49-54-h32-main-20260913/qkv.py": {
+      "bytes": 1535,
+      "sha256": "79ebbfbbbdf509bea8047d7c286869e03e9821ba39870a42bcd38828a11ec8db"
+    },
+    "nr-swin8h-ds22-main-20260913/attention.py": {
+      "bytes": 6170,
+      "sha256": "3191efb60e16333fad8296745ac0ba5f018305eeae5065aec4ed28325a816044"
+    },
+    "nr-swin8h-ds22-main-20260913/block22-slab.bin": {
+      "bytes": 820288,
+      "sha256": "cfb0343287054e38933dbf35c7dbb124fef50cfaf4234f7161575f00896cc02d"
+    },
+    "nr-swin8h-ds22-main-20260913/core.py": {
+      "bytes": 2065,
+      "sha256": "4884dfc546f36dc1da3afa0c620777e31cd39f04ad22177afe121e0d2adfaf3f"
+    },
+    "nr-swin8h-ds22-main-20260913/downsample.py": {
+      "bytes": 2033,
+      "sha256": "9f6944f7b0f29604f393e39e29b447c01d9173cc1040d20211c22f498feaa10d"
+    },
+    "nr-swin8h-ds22-main-20260913/ffn.py": {
+      "bytes": 3675,
+      "sha256": "52f2e1bd3cf92d9ad2a134efb8474b77b7c4047e6cee86b75a5f2159eabf676c"
+    },
+    "nr-swin8h-ds22-main-20260913/nn.py": {
+      "bytes": 1269,
+      "sha256": "6096e0eb23a81818a0e79b3851e71efef3996fb7b1d37371f8795c5091b17764"
+    },
+    "nr-swin8h-ds22-main-20260913/normalized.py": {
+      "bytes": 3611,
+      "sha256": "8bdd9eb89f65337356307caee70b644500799cbc6a280f4d8e711c75973ea527"
+    },
+    "nr-swin8h-ds22-main-20260913/qkv.py": {
+      "bytes": 1535,
+      "sha256": "b732e1a501091fa86325d6717517c58b9961181ee67de0a7e1790bd0ecdc1abd"
+    },
+    "nr-swin8h-encoder16-21-main-20260913/attention.py": {
+      "bytes": 6170,
+      "sha256": "6404e901ac1bcaa813c5e02dd8aec65452a81631ac41fea5ec8c051b4ac8165d"
+    },
+    "nr-swin8h-encoder16-21-main-20260913/block16-slab.bin": {
+      "bytes": 689232,
+      "sha256": "37c5928b15aa456cac02de082e96cd2b7c3e512915f17914000cded6858a86d8"
+    },
+    "nr-swin8h-encoder16-21-main-20260913/block17-slab.bin": {
+      "bytes": 689232,
+      "sha256": "478a4ccea0614d2eeccf1be093d9e72367b2afba49dd7e8c50547edbea67bd61"
+    },
+    "nr-swin8h-encoder16-21-main-20260913/block18-slab.bin": {
+      "bytes": 689232,
+      "sha256": "6c03840d01a50976357ed180eeeda50a2614b8b0ed7fc526aef6b089a906fd4c"
+    },
+    "nr-swin8h-encoder16-21-main-20260913/block19-slab.bin": {
+      "bytes": 689232,
+      "sha256": "f269c6404c6bd73611598ae265f951c73da96e8211a060324e38a703f58d32b4"
+    },
+    "nr-swin8h-encoder16-21-main-20260913/block20-slab.bin": {
+      "bytes": 689232,
+      "sha256": "227945c0e2d727736867e0c2bb232f5bf6f29e42a6e7a5c92546fda9819bc9ac"
+    },
+    "nr-swin8h-encoder16-21-main-20260913/block21-slab.bin": {
+      "bytes": 689232,
+      "sha256": "5a61aad0a642e2398306329a865528777013480d97c384a8e626fe1d394828e8"
+    },
+    "nr-swin8h-encoder16-21-main-20260913/ffn.py": {
+      "bytes": 3675,
+      "sha256": "04d06a8ca462763b09fbd475a8172edda1f10de7b26cf05c5ef01b3f3a099ced"
+    },
+    "nr-swin8h-encoder16-21-main-20260913/nn.py": {
+      "bytes": 2065,
+      "sha256": "4884dfc546f36dc1da3afa0c620777e31cd39f04ad22177afe121e0d2adfaf3f"
+    },
+    "nr-swin8h-encoder16-21-main-20260913/normalized.py": {
+      "bytes": 3611,
+      "sha256": "0a94d713047a4f4d2f95631bd3ea4eb89ea41acfef52b799090c3ad814f3be3d"
+    },
+    "nr-swin8h-encoder16-21-main-20260913/qkv.py": {
+      "bytes": 1535,
+      "sha256": "79ebbfbbbdf509bea8047d7c286869e03e9821ba39870a42bcd38828a11ec8db"
+    },
+    "nr-swin8h-ffn-tensor-main-20260912/ffn.py": {
+      "bytes": 3675,
+      "sha256": "194b0200ce6fa2641905bd9d3756d6d1a7a72cd84c25df4b8da37d11a1913ec7"
+    },
+    "nr-swin8h-inpview15-main2-20260913/attention.py": {
+      "bytes": 6170,
+      "sha256": "6404e901ac1bcaa813c5e02dd8aec65452a81631ac41fea5ec8c051b4ac8165d"
+    },
+    "nr-swin8h-inpview15-main2-20260913/block15-slab.bin": {
+      "bytes": 689232,
+      "sha256": "a3081eaee51296319ade0839add190cfdbe2adbf0f0a5e990df1f2a577ae9507"
+    },
+    "nr-swin8h-inpview15-main2-20260913/ffn.py": {
+      "bytes": 3675,
+      "sha256": "04d06a8ca462763b09fbd475a8172edda1f10de7b26cf05c5ef01b3f3a099ced"
+    },
+    "nr-swin8h-inpview15-main2-20260913/nn.py": {
+      "bytes": 1547,
+      "sha256": "686d235a90d16ce6ff546070a0c45caf23b5274fddcb2e9be49d49a09f3fe1d6"
+    },
+    "nr-swin8h-inpview15-main2-20260913/normalized.py": {
+      "bytes": 3611,
+      "sha256": "0a94d713047a4f4d2f95631bd3ea4eb89ea41acfef52b799090c3ad814f3be3d"
+    },
+    "nr-swin8h-inpview15-main2-20260913/qkv.py": {
+      "bytes": 1535,
+      "sha256": "79ebbfbbbdf509bea8047d7c286869e03e9821ba39870a42bcd38828a11ec8db"
+    },
+    "nr-swin8h-inpview15-main2-20260913/standard_nn.py": {
+      "bytes": 2065,
+      "sha256": "4884dfc546f36dc1da3afa0c620777e31cd39f04ad22177afe121e0d2adfaf3f"
+    },
+    "nr-swin8h-outview55-h32-main-20260913/nn.py": {
+      "bytes": 2105,
+      "sha256": "634d3a213bf881341ebb2febe9caa2f050401160718542581bc28e98a51c9673"
+    },
+    "nr-swin8h-qkv-normalized-main-20260912/normalized.py": {
+      "bytes": 3611,
+      "sha256": "e458dcb55f3033c053e6ff3f75a1920d55dbf06cceecb9f7e1fb60d7a8d90275"
+    },
+    "nr-swin8h-qkv-tensor-main-20260912/qkv.py": {
+      "bytes": 1535,
+      "sha256": "9a956cead804631aac28ed1a7a666fd9583780cdec1969f3923db6b200705f92"
+    },
+    "nr-swin8h-standard-main-20260912/attention.py": {
+      "bytes": 6170,
+      "sha256": "6404e901ac1bcaa813c5e02dd8aec65452a81631ac41fea5ec8c051b4ac8165d"
+    },
+    "nr-swin8h-standard-main-20260912/ffn.py": {
+      "bytes": 3675,
+      "sha256": "04d06a8ca462763b09fbd475a8172edda1f10de7b26cf05c5ef01b3f3a099ced"
+    },
+    "nr-swin8h-standard-main-20260912/model.py": {
+      "bytes": 4575,
+      "sha256": "0e92e32a05d57c01d5db3143837038cf6cedcd9f1826f177da587203d6a8061c"
+    },
+    "nr-swin8h-standard-main-20260912/nn.py": {
+      "bytes": 2065,
+      "sha256": "4884dfc546f36dc1da3afa0c620777e31cd39f04ad22177afe121e0d2adfaf3f"
+    },
+    "nr-swin8h-standard-main-20260912/normalized.py": {
+      "bytes": 3611,
+      "sha256": "0a94d713047a4f4d2f95631bd3ea4eb89ea41acfef52b799090c3ad814f3be3d"
+    },
+    "nr-swin8h-standard-main-20260912/qkv.py": {
+      "bytes": 1535,
+      "sha256": "79ebbfbbbdf509bea8047d7c286869e03e9821ba39870a42bcd38828a11ec8db"
+    },
+    "nr-swin8h-up-main-20260912/prefix_tensor.py": {
+      "bytes": 2360,
+      "sha256": "b265d3531133418a430879aafdeb3ca7521d51c28d12dd37b4f3a16779b8ee68"
+    },
+    "nr-vit-contract-layout-main-20260912/tensor_reference.py": {
+      "bytes": 3849,
+      "sha256": "2e4d95de952ac58dbeac956966625d621670ef4e386ed9b6b5e8cdcaab79281d"
+    },
+    "nr-vit-expand-tensor-reference-20260912/expand_tensor_reference.py": {
+      "bytes": 16263,
+      "sha256": "d87ec28d084eaf19a04a810ba0c2a4c87d6a1c20a80a219079e590503b2d74e7"
+    },
+    "nr-vit-n64-tensor-main-20260912/attention_tensor.py": {
+      "bytes": 4745,
+      "sha256": "fc311cc031523cf5cda8b12e3d473cd3959fd76d18a5f60282c45f84da7e0e6a"
+    },
+    "nr-vit-n64-tensor-main-20260912/contract_tensor.py": {
+      "bytes": 3851,
+      "sha256": "fe8c43e29ab9a24f62fb6e3456bcd20bafce8fea5fe7ff12d2a5f27251613c45"
+    },
+    "nr-vit-n64-tensor-main-20260912/expand_tensor.py": {
+      "bytes": 16370,
+      "sha256": "3e1b155f17f04eaff3b3622d3d48819ff09bb0300d28ad5fd2bcca203fff078a"
+    },
+    "nr-vit-n64-tensor-main-20260912/predict.py": {
+      "bytes": 2684,
+      "sha256": "07d66cbee265b765e0256091a4a4274bdec379f65cc7624092af41d4659db61e"
+    },
+    "nr-vit-n64-tensor-main-20260912/projection_tensor.py": {
+      "bytes": 3862,
+      "sha256": "68302179658229d97bfb903d8e6706a8458d7572f96a9ebcb84b9577b2175e79"
+    },
+    "nr-vit-n64-tensor-main-20260912/qkv_tensor.py": {
+      "bytes": 4235,
+      "sha256": "8e0cf2f9ce26f1c6289ddc1ab1f5766d07ccc86ab4fabefb505877ece52f4cb9"
+    },
+    "nr-vit-output-repack-main-20260912/repack.py": {
+      "bytes": 1492,
+      "sha256": "b6013bd2b8dadd9530d94347149791096a12420fc14a38ae9d482f2792541566"
+    },
+    "nr-vit-repack-reference-20260912/repack_2d_to_1d_fp8_reference.py": {
+      "bytes": 12078,
+      "sha256": "c869ca11b22364a2d20d4d44ff06a8321fda2702812de811bed59d81906e0d5a"
+    },
+    "nr-vit-stack64-main-20260912/stack.py": {
+      "bytes": 4478,
+      "sha256": "c0cba465b2ecffed7bf25d3b8317a9441b70d8b38ed567e65cab5cb4e39b0062"
+    },
+    "public_decoder_stage.py": {
+      "bytes": 13609,
+      "sha256": "0a560ab31fa0a71c184f98501a2274a6f2279644c0a805fcf70a3d845b4f3ed0"
+    },
+    "public_encoder_stage.py": {
+      "bytes": 14535,
+      "sha256": "9c0f5fc70b8f514ff589d19bece8d2162d1d6f0d8bca4118abbd7fe041bad4cd"
+    },
+    "public_pre_stage.py": {
+      "bytes": 6232,
+      "sha256": "9ca3b99b489290ec0b270c4277643d81a445ec4175ec13a3b6fef370f23085f6"
+    },
+    "public_split_stage.py": {
+      "bytes": 9343,
+      "sha256": "8fc08b114139ef246ac4caf343021ee098aff42bb4c7fb873060b39d96cf1014"
+    },
+    "public_temporal_post_stage.py": {
+      "bytes": 2815,
+      "sha256": "f77fa36453fc4746d8676c45815062a63f688883cfe959e41506dedae62f1b27"
+    },
+    "public_temporal_stage.py": {
+      "bytes": 6815,
+      "sha256": "f044e0c25cd330f112849d6903fc513e4af35c431eca769b91eac694fd20edb8"
+    },
+    "public_vit_stage.py": {
+      "bytes": 7138,
+      "sha256": "6f0743a7db3e58032b5de338c9fa3ceb4dbd3f75f254d5420e7f2a356180a58a"
+    },
+    "qkv_sm120_cubin.py": {
+      "bytes": 4527,
+      "sha256": "fb8e997655a90d81c53282b6b8a55ca442419d43488c3c9e825fd29e62d8f611"
+    },
+    "sm120_hmma.py": {
+      "bytes": 3292,
+      "sha256": "9e60aae369046546347dc74ce0e5a63bc7213c0651965bc22fbeb8dbf8cd9ee8"
+    },
+    "verify_public_model.py": {
+      "bytes": 2657,
+      "sha256": "15699365328e085be28084ff8fc59780069c32a5a9de9e56915fd439d2de9913"
+    },
+    "verify_public_temporal_model.py": {
+      "bytes": 2087,
+      "sha256": "41698da6c47cd6abaec2602263fca93487f60a1e68116f9eb321fc5d30a9f801"
+    },
+    "weights/dlssnr-310.8-weights.safetensors": {
+      "bytes": 147697842,
+      "sha256": "890a53f05473dd6fd0980d1ca8501cfd84c1f6d7330b9531ca0981b6a6778d0e"
+    },
+    "weights/dlssnr-logical-v18.safetensors": {
+      "bytes": 291576650,
+      "sha256": "399d900614665918b4f4d51cea0eebc4d8a3a3752c3ab19847e9206f50f2d043"
+    },
+    "weights.py": {
+      "bytes": 1374,
+      "sha256": "c9c9458b6cddbcd24110cabdd779d659a07593a1fee7bc50e9a8e39130e3a889"
+    }
+  }
+}

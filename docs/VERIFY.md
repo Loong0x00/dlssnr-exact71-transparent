@@ -5,18 +5,21 @@ self-test, and an original-DLL oracle into one claim.
 
 ## 1. Release archive integrity
 
-After downloading the release files, the expected archive SHA-256 is:
+The package is uploaded as five numbered parts because the single 271 MiB
+GitHub upload repeatedly failed. Download all `part-00` through `part-04`,
+`SHA256SUMS.parts`, and `PUBLIC_PACKAGE_MANIFEST.json`.
 
-```text
-b0ce8f73d75d6189dd17f62f25433b84f8e2ce3c760fdf0a08982b688ee9c375
-```
-
-Verify and extract:
+Verify the parts, reconstruct the archive, and verify the reconstructed SHA:
 
 ```bash
-sha256sum -c SHA256SUMS
-unzstd exactnr71-sm120-public-20260915.tar.zst
-# or: tar --zstd -xf exactnr71-sm120-public-20260915.tar.zst
+sha256sum -c SHA256SUMS.parts
+cat exactnr71-sm120-public-20260915.tar.zst.part-* \
+  > exactnr71-sm120-public-20260915.tar.zst
+printf '%s  %s\n' \
+  b0ce8f73d75d6189dd17f62f25433b84f8e2ce3c760fdf0a08982b688ee9c375 \
+  exactnr71-sm120-public-20260915.tar.zst | sha256sum -c -
+
+tar --zstd -xf exactnr71-sm120-public-20260915.tar.zst
 python3 tools/verify_release_manifest.py \
   nr-exact71-sm120-public-package-20260915
 ```
